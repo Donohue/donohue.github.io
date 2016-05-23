@@ -117,6 +117,11 @@ a.block:hover {
     background-color: rgb(220, 71, 58);
 }
 
+#instapaper {
+    background-image: url('../img/instapaper.svg');
+    background-color: rgb(248, 242, 227);
+}
+
 @media screen and (max-width: 768px) {
     .name {
         font-size: 38px;
