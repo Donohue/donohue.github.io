@@ -57,7 +57,7 @@ a.block:hover {
 }
 
 #info {
-    background-color: #7BC462;
+    background-color: white;
 }
 
 .text_container {
@@ -73,7 +73,7 @@ a.block:hover {
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: black;
     padding-bottom: 20px;
 }
 
@@ -104,7 +104,7 @@ a.block:hover {
 
 #medium {
     background-image: url('../img/medium.svg');
-    background-color: white;
+    background-color: rgb(25, 171, 108);
 }
 
 #github {
