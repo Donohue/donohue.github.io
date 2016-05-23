@@ -21,8 +21,8 @@ body {
     font-family: 'TiemposText', 'Georgia', sans-serif;
 }
 
-a {
-    color: rgb(0, 116, 191);
+a, a:visited {
+    color: rgb(150, 150, 150);
     text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ a {
 
 .about p {
     max-width: 768px;
-    line-height: 1.65;
+    line-height: 1.7;
     margin-left: auto;
     margin-right: auto;
 }
@@ -157,6 +157,11 @@ a.block:hover {
     .tagline {
         font-size: 22px;
     }
+
+    .about {
+        font-size: 22px;
+        padding: 25px 30px;       
+    }
 }
 
 @media screen and (max-width: 535px) {
@@ -166,5 +171,10 @@ a.block:hover {
 
     .tagline {
         font-size: 14px;
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 25px 25px;
     }
 }
