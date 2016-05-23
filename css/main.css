@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'TiemposText';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url(../fonts/tiempos/TiemposTextWeb-Regular.eot) format('embedded-opentype');
+    src: url(../fonts/tiempos/TiemposTextWeb-Regular.woff) format('woff');
+}
+
 body {
     margin: 0;
+    font-family: 'TiemposText', 'Georgia', sans-serif;
 }
 
 .container {
@@ -60,7 +70,7 @@ body {
 }
 
 .name {
-    font-size: 56px;
+    font-size: 46px;
 }
 
 .tagline {
