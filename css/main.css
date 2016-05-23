@@ -21,6 +21,20 @@ body {
     font-family: 'TiemposText', 'Georgia', sans-serif;
 }
 
+a {
+    color: rgb(0, 116, 191);
+    text-decoration: none;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
 .container {
     overflow: hidden;
     width: 50%;
@@ -30,6 +44,19 @@ body {
 
 .container:first-child, .container:nth-child(2) {
     height: 34%;
+}
+
+.about {
+    font-size: 24px;
+    padding: 25px 50px;
+    border-top: 1px solid rgb(205, 205, 205);
+}
+
+.about p {
+    max-width: 768px;
+    line-height: 1.65;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .block {
