@@ -128,6 +128,11 @@ a.block:hover {
     background-image: url('../img/instagram.svg');
 }
 
+#snapchat {
+    background-color: yellow;
+    background-image: url('../img/snapchat.svg');
+}
+
 #facebook {
     background-image: url('../img/facebook.svg');
     background-color: rgb(56,97,157);
