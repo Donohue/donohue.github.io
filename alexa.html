@@ -26,7 +26,7 @@
 			I&rsquo;m an Amazon Alexa fan.
 		</p>
         <p>
-            In March 2015, I borrowed <a href="http://betaworks.com" target="_blank">betaworks&rsquo;</a> Amazon Echo with the goal of building an Alexa skill. After a few hours I built <a href="https://www.amazon.com/Brian-Donohue-Nonsmoker/dp/B01JKI57LY" target="_blank">Nonsmoker</a>, an Alexa skill that lets you track how long its been since you stopped smoking (642 days for me at the time of writing).
+            In March 2015, I borrowed <a href="http://betaworks.com" target="_blank">betaworks&rsquo;</a> Amazon Echo with the goal of building an Alexa skill. After a few hours I built <a href="https://www.amazon.com/Brian-Donohue-Nonsmoker/dp/B01JKI57LY" target="_blank">Nonsmoker</a>, an Alexa skill that lets you track how long its been since you stopped smoking<span id="nonsmoker_time"></span>.
         </p>
         <p>
 			After finding that there weren&rsquo;t any Alexa meetups in New York City, I decided to start the <a href="https://www.meetup.com/NYC-Amazon-Alexa-Meetup/" target="_blank">NYC Amazon Alexa Meetup</a>.
@@ -45,5 +45,15 @@
         </p>
     </div>
 
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+    var stopDate = new Date("5/21/2015");
+    var today = new Date();
+    var secondsElapsed = (today.getTime() - stopDate.getTime()) / 1000;
+    var days = Math.ceil(secondsElapsed / 86400);
+    var nonsmokerSpan = document.getElementById('nonsmoker_time');
+    nonsmokerSpan.innerText = ' (' + days + ' days since I stopped smoking!)';
+});
+</script>
 </body>
 </html>
