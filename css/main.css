@@ -124,6 +124,11 @@ a.block:hover {
     background-image: url('../img/recents.svg');
 }
 
+#alexa {
+    background-color: black;
+    background-image: url('../img/alexa.svg');
+}
+
 .instagram_gradient {
     background: linear-gradient(#400080, transparent), 
                 linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
