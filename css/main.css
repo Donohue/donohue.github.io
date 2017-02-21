@@ -119,6 +119,11 @@ a.block:hover {
     letter-spacing: 1px;
 }
 
+#recents {
+    background-color: rgb(40, 128, 185);
+    background-image: url('../img/recents.svg');
+}
+
 .instagram_gradient {
     background: linear-gradient(#400080, transparent), 
                 linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
