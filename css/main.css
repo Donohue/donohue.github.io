@@ -155,7 +155,7 @@ a.block:hover {
 
 #medium {
     background-image: url('../img/medium.svg');
-    background-color: rgb(25, 171, 108);
+    background-color: black;
 }
 
 #github {
