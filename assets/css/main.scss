@@ -21,48 +21,9 @@ body {
     font-family: 'TiemposText', 'Georgia', sans-serif;
 }
 
-h1 {
-    font-size: 30px;
-    margin-bottom: 2px;
-}
-
-h3 {
-    font-size: 26px;
-    margin-bottom: 2px;
-}
-
 a, a:visited {
-    color: #0074bf;
+    color: rgb(150, 150, 150);
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-h1 a, h1 a:visited, h1 a:hover, h3 a, h3 a:visited, h3 a:hover {
-    color: black;
-    text-decoration: none;
-}
-
-twitter-widget {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-pre {
-    overflow: auto;
-    word-break: break-word;
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    line-height: 1.4;
-    font-size: 16px;
-    background-color: rgb(240, 240, 240);
-    padding: 15px 20px;
-}
-
-blockquote {
-    font-style: italic;
 }
 
 .clearfix:after {
@@ -77,88 +38,25 @@ blockquote {
 .container {
     overflow: hidden;
     width: 50%;
-    height: 33vh;
+    height: 33%;
     float: left;
 }
 
-.container a:hover {
-	text-decoration: none;
+.container:first-child, .container:nth-child(2) {
+    height: 34%;
 }
 
-.header .container:first-child {
-    height: 34vh;
-    border-bottom: 1px solid black;
+.about {
+    font-size: 24px;
+    padding: 25px 50px;
+    border-top: 1px solid rgb(205, 205, 205);
 }
 
-.header .container:nth-child(2) {
-    height: 34vh;
-    border-bottom: 1px solid rgb(205, 205, 205);
-}
-
-.home, .post {
-    margin: 50px 0px;
-}
-
-.post {
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h4 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-p {
-    margin: 30px 0px;
-}
-
-p img {
-    width: 100%;
-}
-
-.post-list .post p:last-of-type {
-    margin-bottom: 10px;
-}
-
-figcaption {
-    color: rgb(150, 150, 150);
-    text-align: center;
-    font-size: 14px;
-    padding-bottom: 15px;
-}
-
-.fin {
-    color: rgb(220, 220, 220);
-    font-size: 30px;
-    width:90%;
-    text-align: center;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.post p, li {
-    font-size: 20px;
+.about p {
+    max-width: 768px;
     line-height: 1.7;
-}
-
-li {
-    margin-top: 15px;
-}
-
-.home .post p, .home .post li {
-    font-size: 18px;
-}
-
-.post-meta, p.post-meta {
-    font-size: 14px;
-    color: rgb(150, 150, 150);
-	margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .block {
@@ -180,7 +78,7 @@ a.block:hover {
 }
 
 #avatar {
-    background-image: url('../img/brian.png');
+    background-image: url('/assets/img/brian.png');
     background-color: black;
     background-size: inherit;
 }
@@ -231,11 +129,6 @@ a.block:hover {
     background-image: url('../img/alexa.svg');
 }
 
-.alexa_container {
-	width: 100%;
-	margin-top: 30px;
-}
-
 .instagram_gradient {
     background: linear-gradient(#400080, transparent), 
                 linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
@@ -278,18 +171,6 @@ a.block:hover {
 #instapaper {
     background-image: url('../img/instapaper.svg');
     background-color: rgb(248, 242, 227);
-}
-
-.footer {
-	width: 300px;
-	margin: 80px auto 30px auto;
-}
-
-.footer a {
-	display: inline-block;
-	margin: 0px 10px;
-	font-family: 'HelveticaNeue', 'Helvetica', sans-serif;
-	color: rgb(150, 150, 150);
 }
 
 @media screen and (max-width: 768px) {

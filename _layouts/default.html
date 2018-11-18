@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+  </head>
+  <body>
+    <div class="header clearfix">
+        <div class="container">
+            <a href="/" class="block" id="avatar"></a>
+        </div>
+
+        <div class="container">
+            <a href="/about" class="block" id="info">
+                <div class="text_container">
+                    <div class="text">
+                        <div class="name">Brian Donohue</div>
+                        <div class="tagline">Makin&rsquo; that Instapaper</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div>
+        {{ content }}
+    </div>
+  </body>
+</html>
