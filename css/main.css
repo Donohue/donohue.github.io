@@ -307,6 +307,17 @@ a.block:hover {
     }
 }
 
+@media screen and (max-width: 700px) {
+    .post {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 535px) {
     .name {
         font-size: 26px;
