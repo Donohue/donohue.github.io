@@ -292,6 +292,24 @@ a.block:hover {
 	color: rgb(150, 150, 150);
 }
 
+.video_frame {
+    position:relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow:hidden;
+    background-color: black;
+}
+
+.video_frame iframe, .video_frame object, .video_frame embed {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 @media screen and (max-width: 768px) {
     .name {
         font-size: 38px;
