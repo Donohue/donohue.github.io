@@ -281,7 +281,7 @@ a.block:hover {
 }
 
 .footer {
-	width: 300px;
+	max-width: 230px;
 	margin: 80px auto 30px auto;
 }
 
