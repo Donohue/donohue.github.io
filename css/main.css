@@ -143,16 +143,12 @@ figcaption {
 }
 
 .post p, li {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.7;
 }
 
 li {
     margin-top: 15px;
-}
-
-.home .post p, .home .post li {
-    font-size: 18px;
 }
 
 .post-meta, p.post-meta {
@@ -325,10 +321,26 @@ a.block:hover {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 680px) {
+    .home {
+        margin: 30px 0px;
+    }
+
     .post {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin: 30px 20px;
+    }
+
+    .post p, .post li {
+        font-size: 16px;
+    }
+
+    ol, ul {
+        padding-inline-start: 20px;
+    }
+
+    blockquote {
+        margin-inline-start: 20px;
+        margin-inline-end: 15px;
     }
 
     iframe {
