@@ -10,7 +10,7 @@ permalink: /contact/
        title="Email"
        alt="Email"
        target="_blank"
-       href="mailto:brian@betaworks.com?subject=[bthdonohue.com]">
+       href="mailto:brian@bthdonohue.com?subject=[bthdonohue.com]">
     </a>
 </div>
 

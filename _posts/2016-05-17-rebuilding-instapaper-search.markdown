@@ -201,4 +201,4 @@ Projects like this are part of the reason I really love working on Instapaper. I
 
 I also learned a ton about the Instapaper system, how to scale up quickly, where the bottlenecks in the service are under load, and how to overcome those bottlenecks to push further performance in the system.
 
-I’d love to hear your thoughts, questions, or criticisms via email to [brian@betaworks.com](mailto:brian@betaworks.com), or on [Twitter](http://twitter.com/bthdonohue).
+I’d love to hear your thoughts, questions, or criticisms via email to [brian@team.instapaper.com](mailto:brian@team.instapaper.com), or on [Twitter](http://twitter.com/bthdonohue).

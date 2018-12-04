@@ -168,6 +168,6 @@ Go back to “Interaction Model” tab in the Alexa Skill Developer portal, and 
 
 ![](/img/posts/1*KdfqphskuVljnRPIgB3q8w.gif)
 
-If you have any questions you should feel free to reach out to me on [Twitter](https://twitter.com/bthdonohue) or via email to [brian@betaworks.com](mailto:brian@betaworks.com). If you’re in the NYC area you should definitely sign up for the [NYC Amazon Alexa Meetup](http://www.meetup.com/NYC-Amazon-Alexa-Meetup/) and come to the next event!
+If you have any questions you should feel free to reach out to me on [Twitter](https://twitter.com/bthdonohue) or via email to [brian@bthdonohue.com](mailto:brian@bthdonohue.com). If you’re in the NYC area you should definitely sign up for the [NYC Amazon Alexa Meetup](http://www.meetup.com/NYC-Amazon-Alexa-Meetup/) and come to the next event!
 
 – Brian
