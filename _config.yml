@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Brian Donohue – Makin' that Instapaper
+email: brian@bthdonohue.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I’m Brian. I’m originally from Fort Lee NJ, of Chris Christie Bridgegate fame, and spent several years living in Brooklyn NY before moving to Oakland CA. I went to college at a small, private technology school in Hoboken NJ called Stevens Institute of Technology, where I majored in Computer Science and graduated with High Honors. In my post-college professional life I’ve worked at a string of startups, including one I started that I refer to as “a great learning experience.” I was previously the CEO of Instapaper, where I also did all of the software engineering. In August 2016 Instapaper was acquired by Pinterest, where I continue to operate Instapaper.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
