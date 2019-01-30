@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Thirty"
+date:   "2019-01-30"
+excerpt_separator: <!--more-->
+---
+
+Thirty on the thirtieth! Today is like any other, but I suppose it's as good a day as any to reflect on the past ten years of my life and look forward to the next ten.
+
+In the past ten years I...
+
+<!--more-->
+
+* graduated from college early and with high honors.
+* ended an eight year career caddying.
+* started a career in software engineering.
+* laid my father to rest.
+* moved to Brooklyn.
+* started a company, raised $250k, and shut it down.
+* got promoted from iOS developer, to General Manager, and then CEO of Instapaper.
+* made lots of new friends.
+* started an annual vacation to South/Central America and visited Argentina, [Costa Rica](https://www.instagram.com/p/_2GKiWwsku/), [Colombia](https://www.instagram.com/p/BOnJXLTAsrv/), [Chile](https://www.instagram.com/p/BdSaKRGgXNa/), and [Ecuador](https://www.instagram.com/p/Br_v1UClAvN/).
+* stopped smoking after being a smoker for 12 years.
+* buried my best friend Bertram.
+* [sold Instapaper to Pinterest](https://www.theverge.com/2016/8/23/12595940/instapaper-acquired-pinterest-newsreading-app).
+* moved from Brooklyn to Oakland.
+* made Forbes' [30 Under 30 in media](https://www.forbes.com/30-under-30-2017/media/#556ff354aa64).
+* started hiking, backpacking, and mountain climbing.
+* shipped [board sections](https://newsroom.pinterest.com/en/post/a-new-way-to-organize-your-ideas-on-pinterest) at Pinterest, shut down a couple of other unsuccessful projects.
+* moved into software engineering management.
+* wrote the [most read post](https://medium.com/@Pinterest_Engineering/three-day-no-meeting-schedule-for-engineers-fca9f857a567) on the Pinterest Engineering blog.
+* visited Japan, [climbed Mt. Fuji](https://www.instagram.com/p/Bl2uOI7hUKk/).
+* [spun Instapaper out of Pinterest](http://blog.instapaper.com/post/175953870856).
+* [climbed Mt. Whitney](https://www.instagram.com/p/BmryZsBhrfP/), the highest mountain in the lower 48 states.
+* summitted over 19k feet on [Cotopaxi](https://www.instagram.com/p/BrrASR5ljxY/) in Ecuador.
+
+One constant in my life has been that things have generally trended to be more awesome as I've gotten older, and I'm hoping the trend continues through my thirties.
+
+In the next ten years I hope to...
+
+* get married.
+* start a family.
+* purchase a house.
+* manage a large organization of people building amazing products.
+* climb a few mountains in the Cascade Range.
+* write more on this blog.
+* become fluent in Spanish.
+* keep Instapaper running.
+* take a few months off between jobs to relax/explore/learn.
