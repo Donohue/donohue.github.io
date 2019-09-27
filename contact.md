@@ -56,7 +56,7 @@ permalink: /contact/
 
 <div class="container">
     <a class="block"
-       id="github"
+       id="github-block"
        title="GitHub"
        alt="GitHub"
        target="_blank"

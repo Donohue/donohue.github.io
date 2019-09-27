@@ -29,6 +29,7 @@ h1 {
 h3 {
     font-size: 26px;
     margin-bottom: 2px;
+    font-weight: normal;
 }
 
 a, a:visited {
@@ -261,7 +262,7 @@ a.block:hover {
     background-color: black;
 }
 
-#github {
+#github-block {
     background-image: url('../img/github.svg');
     background-color: black;
 }
