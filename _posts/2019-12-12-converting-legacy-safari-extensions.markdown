@@ -9,7 +9,9 @@ In the process of converting Instapaper's Safari App Extension, I found Apple's 
 
 > If you already have a Legacy Safari Extension and you want to convert it to a Safari App Extension, you’ll need to modify parts of it and completely rewrite others.
 
-What's missing from the documentation is what exactly you would need to modify or completely rewrite, which I hope to outline a bit more clearly.
+What's missing from the documentation is what exactly you would need to modify or completely rewrite, which I hope to outline a bit more clearly...
+
+<!--more-->
 
 ## Legacy Safari Extension Architecture
 
