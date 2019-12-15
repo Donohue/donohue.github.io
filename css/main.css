@@ -151,13 +151,13 @@ p, pre {
     margin: 30px 0px;
 }
 
-p img {
+p img, figure img {
     width: 100%;
     transition: all 200ms ease-out;
     opacity: var(--image-opacity);
 }
 
-p img:hover, p img:active {
+p img:hover, p img:active, figure img:hover, figure img:active {
     opacity: 1;
 }
 
@@ -165,11 +165,18 @@ p img:hover, p img:active {
     margin-bottom: 10px;
 }
 
+figure {
+    margin: 0;
+}
+
+figure figcaption {
+    margin-top: 10px;
+}
+
 figcaption {
     color: rgb(150, 150, 150);
     text-align: center;
     font-size: 14px;
-    padding-bottom: 15px;
 }
 
 .fin {
