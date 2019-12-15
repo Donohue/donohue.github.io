@@ -151,6 +151,10 @@ p, pre {
     margin: 30px 0px;
 }
 
+figure {
+    max-width: 640px;
+}
+
 p img, figure img {
     width: 100%;
     transition: all 200ms ease-out;
