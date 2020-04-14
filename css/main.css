@@ -83,6 +83,14 @@ twitter-widget {
     margin-right: auto;
 }
 
+code {
+    background-color: rgb(240, 240, 240);
+    background-color: var(--code-background-color);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(227, 142, 57);
+}
+
 pre {
     overflow: auto;
     word-break: break-word;
@@ -90,9 +98,11 @@ pre {
     white-space: pre-wrap;
     line-height: 1.4;
     font-size: 16px;
-    background-color: rgb(240, 240, 240);
-    background-color: var(--code-background-color);
-    padding: 15px 20px;
+}
+
+pre code {
+    padding: 15px 20px !important;
+    color: var(--text-color);
 }
 
 blockquote {
@@ -155,14 +165,18 @@ figure {
     max-width: 640px;
 }
 
-p img, figure img {
+p img, figure img, li img {
     width: 100%;
     transition: all 200ms ease-out;
     opacity: var(--image-opacity);
 }
 
-p img:hover, p img:active, figure img:hover, figure img:active {
+p img:hover, p img:active, figure img:hover, figure img:active, li img:hover, li img:active {
     opacity: 1;
+}
+
+li img {
+    margin: 5px 0px;
 }
 
 .post-list .post p:last-of-type {
