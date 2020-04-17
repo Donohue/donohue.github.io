@@ -9,7 +9,9 @@ While sheltered in place, I finally had the time to do something I've been meani
 
 In 2018, Mailgun changed their email pricing from volume-based to tier-based and, as a result, the cost of sending the [Instapaper Weekly](https://blog.instapaper.com/post/74088929566) nearly doubled. Shortly after the price change, we disabled the Weekly email while taking the steps toward making Instapaper GDPR compliant, but it's remained off because it was prohibitively expensive to continue operating the email.
 
-After a few weeks of work, we are almost entirely migrated onto SES. As a result, we finally re-enabled the Weekly email after an almost 2 year hiatus! I [open sourced several tools](https://github.com/Instapaper/ses-tools) we used for the integration, and I'll share the steps we took for the migration below.
+After a few weeks of work, we are almost entirely migrated onto SES. As a result, we finally re-enabled the Weekly email after an almost 2 year hiatus! I [open sourced several tools](https://github.com/Instapaper/ses-tools) we used for the integration, and I'll share the steps we took for the migration below...
+
+<!--more-->
 
 ## Migrating an Internal Use Case
 
