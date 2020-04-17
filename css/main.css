@@ -92,7 +92,7 @@ code {
 }
 
 pre {
-    overflow: auto;
+    overflow-x: scroll;
     word-break: break-word;
     word-wrap: break-word;
     white-space: pre-wrap;
@@ -413,6 +413,10 @@ a.block:hover {
 
     .post p, .post li {
         font-size: 16px;
+    }
+
+    pre {
+        white-space: pre;
     }
 
     ol, ul {
