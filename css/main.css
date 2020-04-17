@@ -129,13 +129,15 @@ blockquote {
 	text-decoration: none;
 }
 
-.header .container:first-child {
+.header .container {
     height: 34vh;
+}
+
+.header .container:first-child {
     border-bottom: 1px solid black;
 }
 
 .header .container:nth-child(2) {
-    height: 34vh;
     border-bottom: 1px solid rgb(205, 205, 205);
     border-bottom: 1px solid var(--info-border-color);
 }
@@ -247,7 +249,7 @@ a.block:hover {
 #avatar {
     background-image: url('../img/brian.png');
     background-color: black;
-    background-size: inherit;
+    background-size: contain;
 }
 
 #info {
@@ -401,6 +403,10 @@ a.block:hover {
         margin: 30px 0px;
     }
 
+    .container, .header .container {
+        height: 25vh;
+    }
+
     .post {
         margin: 30px 20px;
     }
@@ -423,7 +429,7 @@ a.block:hover {
     }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 600px) {
     .name {
         font-size: 26px;
     }
@@ -432,6 +438,9 @@ a.block:hover {
         font-size: 14px;
     }
 
+}
+
+@media screen and (max-width: 535px) {
     .about {
         font-size: 18px;
         padding: 25px 25px;
