@@ -9,6 +9,8 @@ Five years ago today, I smoked my last cigarette. Previously, I smoked a pack a 
 
 > It’s like KonMari, except easy, because the only things you throw out are your cigarettes and your entire sense of self.
 
+<!--more-->
+
 ## Starting Smoking
 
 Like most, I started smoking as a teenager out of curiousity. My dad smoked his entire life, and I think his smoking habit was a big contributor to that curiosity. I remember buying my first pack of cigarettes, Marlboro Reds (like dad), and smoking them with a friend saying, "Help me finish this pack of cigarettes so I can be done with them." I was fourteen.
