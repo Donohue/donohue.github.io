@@ -8,7 +8,6 @@ excerpt_separator: <!--more-->
 Recently, I've been spending time exploring Ethereum/web3 with the goal of trying to understand the technologies and opportunities. Having spent most of my career building in web2, my entire concept of building has been based on centralized systems. I've found that thinking about building in a decentralized ecosystem is really foreign.
 
 To learn more in a hands on way, I built a simple open source project called [ethTip](https://github.com/Donohue/ethTip) which lets you add Ethereum tipping to a website with just five lines of HTML.
-
 <!--more-->
 
 1. Add `meta` tags in your `head` tag to determine the ethereum address and tip amount
