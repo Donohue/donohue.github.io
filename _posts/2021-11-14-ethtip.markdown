@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "ethTip: Open Source Plugin for ETH Tipping"
+date:   "2021-11-14"
+excerpt_separator: <!--more-->
+---
+
+Recently, I've been spending time exploring Ethereum/web3 with the goal of trying to understand the technologies and opportunities. Having spent most of my career building in web2, my entire concept of building has been based on centralized systems. I've found that thinking about building in a decentralized ecosystem is really foreign.
+
+To learn more in a hands on way, I built a simple open source project called [ethTip](https://github.com/Donohue/ethTip) which lets you add Ethereum tipping to a website with just five lines of HTML.
+
+<!--more-->
+
+1. Add `meta` tags in your `head` tag to determine the ethereum address and tip amount
+
+    ```
+    <meta name="ethAddress" content="0x....">
+	<meta name="ethTip" content=".005"/>
+	<!-- About $20 at the time of writing -->
+	```
+
+2. Include the [ethtip.js](https://github.com/Donohue/ethTip/blob/master/ethtip.js) and [ethtip.css](https://github.com/Donohue/ethTip/blob/master/ethtip.css) files in your `head` tag
+
+	```
+	<link rel="stylesheet" href="https://bthdonohue.com/ethTip/ethtip.css">
+	<script src="https://bthdonohue.com/ethTip/ethtip.js"></script>
+	```
+
+3. Add the ethtip button at the bottom of your `body` tag
+
+	```
+	<button id="ethTip"></button>
+	```
+
+If interested, you can view the [commit](https://github.com/Donohue/donohue.github.io/commit/868c4e0a128724aa57a002614b200e0189f38af4) that integrates ethTip into this blog.
+
+
+## Experience
+
+When visiting a website with ethTip, a floating Ethereum button will appear on the bottom-right side of the page if the visitor has [MetaMask](https://metamask.io/) (or any browser-based wallet that supports the [Ethereum Provider API](https://docs.metamask.io/guide/ethereum-provider.html)) installed.
+
+The floating Ethereum button is hidden for visitors without a browser-based Ethereum wallet (i.e. web2 users?).
+
+For the button design, I took some inspiration from [Floating Action Button](https://material.io/components/buttons-floating-action-button) in Google's Material Design, added a depressed state, and [support for dark mode](/2019/10/15/dark-mode-web.html).
+
+Here's the experience with MetaMask installed:
+
+![screenshot](/img/ethTip-screenshot.png)
+
+Clicking on the floating Ethereum button will prompt MetaMask to send .005 ETH (~$20), the amount I configured in the `ethTip` `meta` tag.
+
+## Learnings
+
+This project is small and trivial, but I learned a lot from it:
+
+* There is no shortage of [Ethereum tip button](https://github.com/MetaMask/TipButton) projects out there. I tried to make ethTip both really easy to use and to integrate with just a few lines of HTML. One constraint I applied was building vanilla Javascript without additional library support.
+* I didn't find any specification for providing an Ethereum address as part of a website's `meta` tag. I could see applications for both domain-wide Ethereum addresses (e.g. this blog has one Ethereum address) and page-specific Ethereum addresses (e.g. a Twitter user's webpage). The `ethAddress` `meta` tag was a key part of making ethTip flexible and configurable, just in HTML.
+* 1 Ether = 10^18 wei. Transactions are processed as the hex value in wei, so as a developer you can't request to send .005 ETH. You have to calculate .005 * 10^18 then convert the resulting value to hex (`0x4563918244F40000`), and when you send that value to MetaMask, it's shown as .005 ETH. As a developer, I wish that was more straightforward.
+* There's something really interesting about the wallet as your distributed Internet identity. No more logins for each website. No more passwords or forgotten passwords. Just don't lose the seed phrase.
+* There are many Web3 experiences that can be layered on top of the existing web, and hidden for people without Ethereum wallets. On this blog, you'll get an Ethereum tip button only if you have an Ethereum wallet in your browser.
+* Web3 user experience still leaves something to be desired, but I'm optimistic this will improve as the ecosystem matures.
+* dApps (decentralized apps) have their infrastructure essentially run by the community for free. For users of dApps, reads are free, but writes cost a transaction fee called gas.
+* As an application developer, much is interesting about not running your own infrastructure (cost, time, headaches, etc), but high gas prices are currently a big limiting factor into the type of applications that make sense. While gas prices are high, dApps will be limited to lower write volume use cases (e.g. [publishing blog posts](https://mirror.xyz/), [buying domain names](https://ens.domains/), [art auctions](https://opensea.io/)), and larger write volume use cases like Twitter will remain out of reach.
+
+This was the most fun I've had building in a long time. Starting with a project that mostly leveraged web technologies, exploring here was much more approachable; I was able to ship something meaningful in a weekend.
+
+Web3 as a mechanism for connecting the web to programmable blockchains is fascinating, and I'm excited to continue exploring here.
