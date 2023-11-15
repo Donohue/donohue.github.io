@@ -12,9 +12,9 @@ I went to college at a small, private technology school in Hoboken NJ called <a 
 
 In my post-college professional life I&rsquo;ve worked at a string of startups, including one I started that I refer to as &ldquo;a great learning experience.&rdquo;
 
-I was previously the CEO of <a href="https://instapaper.com" target="_blank">Instapaper</a>, where I also did all of the software engineering. In August 2016 <a href="http://www.recode.net/2016/8/23/12600410/pinterest-instapaper-acquisition-betaworks-marco-arment" target="_blank">Instapaper was acquired by Pinterest</a>, where I continue to be employed as the Director of Product Engineering.
+I was previously the CEO of <a href="https://instapaper.com" target="_blank">Instapaper</a>, where I also did all of the software engineering. In August 2016 <a href="http://www.recode.net/2016/8/23/12600410/pinterest-instapaper-acquisition-betaworks-marco-arment" target="_blank">Instapaper was acquired by Pinterest</a>, where I eventually became the Director of Product Engineering.
 
-In July 2018, <a href="http://blog.instapaper.com/post/175953870856" target="_blank">Instapaper was spun into an independent company</a> which I co-own with <a href="https://www.linkedin.com/in/rodiongusev/" target="_blank">Rodion Gusev</a>.
+In July 2018, <a href="http://blog.instapaper.com/post/175953870856" target="_blank">Instapaper was spun into an independent company</a> which I own and operate. In July 2021, I moved from Pinterest to DoorDash as a Director of Engineering, where I'm currently employed.
 
 [Feel free to get in touch!](/contact/)
 
