@@ -51,7 +51,7 @@ Through 2017 and 2018 I saw the writing on the wall. Instapaper was heading for 
 
 Many conversations later, I exhausted the miniscule political capital I did have, and [Pinterest agreed to spin Instapaper into an independent company](https://blog.instapaper.com/post/175953870856).
 
-I really have to give the credit for this decision to Ben Silberman, Pinterest’s founder and then-CEO. Many CEOs pay lip service toward putting users first, but Ben actually makes decisions that put users first. That was the only reason to spin Instapaper out. He earned my deep admiration and respect for caring about Instapaper users as deeply as Pinterest users.
+I really have to give the credit for this decision to Ben Silbermann, Pinterest’s founder and then-CEO. Many CEOs pay lip service toward putting users first, but Ben actually makes decisions that put users first. That was the only reason to spin Instapaper out. He earned my deep admiration and respect for caring about Instapaper users as deeply as Pinterest users.
 
 # 2018–Present: Independent Company
 
