@@ -1,0 +1,418 @@
+.bigfoot-footnote__button {
+  position: relative;
+  z-index: 5;
+  top: -0.1em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  padding: 0.35em;
+  margin: 0 0.1em 0 0.2em;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  background-color: rgb(182, 182, 182);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-size: 1rem;
+  line-height: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-smoothing: antialiased;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+.sepiamode .bigfoot-footnote__button {
+    background-color: rgb(203, 197, 178);
+}
+
+.stormmode .bigfoot-footnote__button {
+    background-color: rgb(88, 88, 88);
+}
+
+.darkmode .bigfoot-footnote__button {
+    background-color: rgb(62, 62, 62);
+}
+
+.bigfoot-footnote__button.is-active,
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button:focus {
+  outline: none;
+  background-color: rgb(132, 132, 132);
+}
+
+.sepiamode .bigfoot-footnote__button.is-active,
+.sepiamode .bigfoot-footnote__button:hover,
+.sepiamode .bigfoot-footnote__button:active,
+.sepiamode .bigfoot-footnote__button:focus {
+  outline: none;
+  background-color: rgb(156, 149, 129);
+}
+
+.stormmode .bigfoot-footnote__button.is-active,
+.stormmode .bigfoot-footnote__button:hover,
+.stormmode .bigfoot-footnote__button:active,
+.stormmode .bigfoot-footnote__button:focus {
+  outline: none;
+  background-color: rgb(110, 110, 110);
+}
+
+.darkmode .bigfoot-footnote__button.is-active,
+.darkmode .bigfoot-footnote__button:hover,
+.darkmode .bigfoot-footnote__button:active,
+.darkmode .bigfoot-footnote__button:focus {
+  outline: none;
+  background-color: rgb(91, 91, 91);
+}
+
+.bigfoot-footnote__button:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.bigfoot-footnote__button__circle {
+  display: inline-block;
+  width: 0.25em;
+  height: 0.25em;
+  margin-right: 0.25em;
+  float: left;
+}
+
+.bigfoot-footnote__button__circle circle {
+  fill: white;
+}
+
+.sepiamode .bigfoot-footnote__button__circle circle {
+  fill: #f8f2e3;
+}
+
+.stormmode .bigfoot-footnote__button__circle circle {
+  fill: #3c3c3c;
+}
+
+.darkmode .bigfoot-footnote__button__circle circle {
+  fill: #111;
+}
+
+.bigfoot-footnote__button__circle:last-child {
+  margin-right: 0;
+}
+
+.bigfoot-footnote__container {
+  display: inline-block;
+  position: relative;
+  text-indent: 0;
+}
+
+@media not print {
+  .footnote-print-only {
+    display: none !important;
+  }
+}
+
+@media print {
+  .bigfoot-footnote,
+  .bigfoot-footnote__button {
+    display: none !important;
+  }
+}
+
+.bigfoot-footnote {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 90%;
+  margin: 1.96924em 0;
+  background: white;
+  opacity: 0;
+  border-radius: 0.5em;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  line-height: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transform: scale(0.1) translateZ(0);
+  -ms-transform: scale(0.1) translateZ(0);
+  transform: scale(0.1) translateZ(0);
+  -webkit-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+
+.bigfoot-footnote.is-positioned-top {
+  top: auto;
+  bottom: 0;
+}
+
+.bigfoot-footnote.is-active {
+  -webkit-transform: scale(1) translateZ(0);
+  -ms-transform: scale(1) translateZ(0);
+  transform: scale(1) translateZ(0);
+  opacity: 1;
+}
+
+.bigfoot-footnote.is-bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  top: auto;
+  left: 0;
+  right: auto;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  opacity: 1;
+  border-width: 1px 0 0;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.bigfoot-footnote.is-bottom-fixed.is-active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper {
+  margin: 0 0 0 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  max-width: 100%;
+}
+
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper,
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__content {
+  border-radius: 0;
+}
+
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__tooltip {
+  display: none;
+}
+
+.bigfoot-footnote.is-scrollable:after {
+  content: '';
+  position: absolute;
+  bottom: 0.3375em;
+  left: 0.3375em;
+  z-index: 14;
+  display: block;
+  height: 0.78125em;
+  width: 0.625em;
+  background-image: url('data:image/svg+xml;utf-8,<svg width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Arrow" transform="translate(1.000000, 1.000000)" stroke="black" stroke-width="2" stroke-linecap="square"><path d="M5,0 L5,11.5" id="Line"></path><path d="M0.5,7.5 L5.02769279,12.0276928" id="Line"></path><path d="M4.5,7.5 L9.02769279,12.0276928" id="Line-2" transform="translate(7.000000, 10.000000) scale(-1, 1) translate(-7.000000, -10.000000) "></path></g></g></svg>');
+  -webkit-background-size: cover;
+  background-size: cover;
+  opacity: 0.1;
+  transition-properties: opacity;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before,
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  left: 0;
+}
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
+  top: -1px;
+  height: 1.1em;
+  border-radius: 0.5em 0.5em 0 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(top, white 50%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
+  bottom: -1px;
+  height: 1.2em;
+  border-radius: 0 0 0.5em 0.5em;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to top, white 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.sepiamode .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(248, 242, 227)), to(rgba(248, 242, 227, 0)));
+  background-image: -webkit-linear-gradient(top, rgb(248, 242, 227) 50%, rgba(248, 242, 227, 0) 100%);
+  background-image: linear-gradient(to bottom, rgb(248, 242, 227) 50%, rgba(248, 242, 227) 100%);
+}
+
+.sepiamode .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(248, 242, 227)), to(rgba(248, 242, 227, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgb(248, 242, 227) 50%, rgba(248, 242, 227, 0) 100%);
+  background-image: linear-gradient(to top, rgb(248, 242, 227) 50%, rgba(248, 242, 227, 0) 100%);
+}
+
+.stormmode .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(70, 70, 70)), to(rgba(70, 70, 70, 0)));
+    background-image: -webkit-linear-gradient(top, rgb(70, 70, 70) 50%, rgba(70, 70, 70, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(70, 70, 70) 50%, rgba(70, 70, 70) 100%);
+}
+
+.stormmode .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(70, 70, 70)), to(rgba(70, 70, 70, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgb(70, 70, 70) 50%, rgba(70, 70, 70, 0) 100%);
+  background-image: linear-gradient(to top, rgb(70, 70, 70) 50%, rgba(70, 70, 70, 0) 100%);
+}
+
+.darkmode .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(17, 17, 17)), to(rgba(17, 17, 17, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgb(17, 17, 17) 50%, rgba(17, 17, 17, 0) 100%);
+  background-image: linear-gradient(to top, rgb(17, 17, 17) 50%, rgba(17, 17, 17, 0) 100%);
+}
+
+.darkmode .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(17, 17, 17)), to(rgba(17, 17, 17, 0)));
+    background-image: -webkit-linear-gradient(top, rgb(17, 17, 17) 50%, rgba(17, 17, 17, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(17, 17, 17) 50%, rgba(17, 17, 17) 100%);
+}
+
+.sepiamode .bigfoot-footnote.is-scrollable:after {
+    background-image: url('data:image/svg+xml;utf-8,<svg width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Arrow" transform="translate(1.000000, 1.000000)" stroke="#C9C3B5" stroke-width="2" stroke-linecap="square"><path d="M5,0 L5,11.5" id="Line"></path><path d="M0.5,7.5 L5.02769279,12.0276928" id="Line"></path><path d="M4.5,7.5 L9.02769279,12.0276928" id="Line-2" transform="translate(7.000000, 10.000000) scale(-1, 1) translate(-7.000000, -10.000000) "></path></g></g></svg>');
+    opacity: 1;
+}
+
+.stormmode .bigfoot-footnote.is-scrollable:after,
+.darkmode .bigfoot-footnote.is-scrollable:after {
+    background-image: url('data:image/svg+xml;utf-8,<svg width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Arrow" transform="translate(1.000000, 1.000000)" stroke="white" stroke-width="2" stroke-linecap="square"><path d="M5,0 L5,11.5" id="Line"></path><path d="M0.5,7.5 L5.02769279,12.0276928" id="Line"></path><path d="M4.5,7.5 L9.02769279,12.0276928" id="Line-2" transform="translate(7.000000, 10.000000) scale(-1, 1) translate(-7.000000, -10.000000) "></path></g></g></svg>');
+    opacity: 0.3;
+}
+
+.bigfoot-footnote.is-scrollable ::-webkit-scrollbar {
+  display: none;
+}
+
+.sepiamode .bigfoot-footnote.is-fully-scrolled:after,
+.stormmode .bigfoot-footnote.is-fully-scrolled:after,
+.darkmode .bigfoot-footnote.is-fully-scrolled:after,
+.bigfoot-footnote.is-fully-scrolled:after,
+.bigfoot-footnote.is-fully-scrolled:before {
+  opacity: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.bigfoot-footnote__wrapper {
+  position: relative;
+  z-index: 14;
+  width: 22em;
+  display: inline-block;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  overflow: hidden;
+  margin: 0;
+  background-color: white;
+  border-radius: 0.5em;
+  line-height: 0;
+}
+
+.bigfoot-footnote__content {
+  position: relative;
+  z-index: 8;
+  display: inline-block;
+  max-height: 15em;
+  padding: 1.1em 1.3em 1.2em;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background: white;
+  border-radius: 0.5em;
+  font-smoothing: subpixel-antialiased;
+  line-height: 1.5;
+}
+
+.bigfoot-footnote__content img {
+  max-width: 100%;
+}
+
+.bigfoot-footnote__content *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.bigfoot-footnote__content *:first-child {
+  margin-top: 0 !important;
+}
+
+.bigfoot-footnote__tooltip {
+  position: absolute;
+  z-index: 12;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: -0.65em;
+  width: 1.3em;
+  height: 1.3em;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: white;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 0;
+}
+
+.sepiamode .bigfoot-footnote,
+.sepiamode .bigfoot-footnote__tooltip {
+}
+
+.darkmode .bigfoot-footnote,
+.darkmode .bigfoot-footnote__tooltip {
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.is-positioned-bottom .bigfoot-footnote__tooltip {
+  top: -0.65em;
+}
+
+.is-positioned-top .bigfoot-footnote__tooltip {
+  bottom: -0.65em;
+}
+
+.sepiamode .bigfoot-footnote,
+.sepiamode .bigfoot-footnote__wrapper,
+.sepiamode .bigfoot-footnote__content,
+.sepiamode .bigfoot-footnote__tooltip {
+    background: rgb(248, 242, 227);
+}
+
+.stormmode .bigfoot-footnote,
+.stormmode .bigfoot-footnote__wrapper,
+.stormmode .bigfoot-footnote__content,
+.stormmode .bigfoot-footnote__tooltip {
+    background: rgb(70, 70, 70);
+}
+
+.darkmode .bigfoot-footnote,
+.darkmode .bigfoot-footnote__wrapper,
+.darkmode .bigfoot-footnote__content,
+.darkmode .bigfoot-footnote__tooltip {
+    background: rgb(17, 17, 17);
+}
