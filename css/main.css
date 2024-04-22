@@ -199,10 +199,37 @@ figure figcaption {
     margin-top: 10px;
 }
 
-figcaption {
+figcaption, img + em {
     color: rgb(150, 150, 150);
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    display: block;
+    line-height: 1.4;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 4px;
+    line-height: 1.5;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+tr {
+    margin: 0;
+}
+
+th, td {
+    text-align: left;
+    margin: 0;
+    padding: 10px 10px;
+    border-left: 1px solid rgb(219, 219, 219);
+}
+
+thead tr, tr:nth-child(even) {
+    background-color: rgb(244,245,247);
 }
 
 .fin {
