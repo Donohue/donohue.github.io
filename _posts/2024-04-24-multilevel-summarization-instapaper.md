@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Multi-Level Summarization in Instapaper"
-date:   "2024-04-15"
+date:   "2024-04-24"
+redirect_from:
+    - /2024/04/15/multilevel-summarization-instapaper.html
 excerpt_separator: <!--more--> 
 ---
 
