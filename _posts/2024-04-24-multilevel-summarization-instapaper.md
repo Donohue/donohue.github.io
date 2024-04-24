@@ -5,7 +5,7 @@ date:   "2024-04-15"
 excerpt_separator: <!--more--> 
 ---
 
-Today Instapaper launched Summaries, which is a feature I've wanted to build for a long time. Summaries help readers both understand an article before reading it, and help them recall the details of previously read articles.
+Today [Instapaper launched Summaries](https://blog.instapaper.com/post/748647273401139200/summaries-custom-article-actions-obsidian), which is a feature I've wanted to build for a long time. Summaries help readers both understand an article before reading it, and help them recall the details of previously read articles.
 
 Building summarization features has become a whole lot easier with new tools and APIs, and this post will outline the technical details on how Instapaper generates its summaries.
 
