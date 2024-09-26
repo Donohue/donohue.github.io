@@ -14,5 +14,5 @@ I was strongly in the less-but-better-microservices camp at DoorDash. Like many 
 The thing I liked most about the statement *Microservices are Technical Debt* is that it's provocative enough to start the right conversation. I do agree that a microservices-only architecture likely introduces more challenges and technical debt than it's worth.
 
 [^1]: Occasionally over several beers :-)
-[^2]: Maybe we should jsut call them "services"?
+[^2]: Maybe we should just call them "services"?
 [^3]: For instance you might take your monolith spaghetti code and turn it into distributed systems spaghetti instead. The former is a lot easier to fix and work with, IMO.
