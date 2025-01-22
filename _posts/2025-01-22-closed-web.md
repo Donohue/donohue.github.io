@@ -9,6 +9,8 @@ I've been observing a growing shift toward a more Closed Web. At the core of thi
 
 Given that Instapaper is a product that relies on the Open Web, I've been thinking a lot about this shift, the underlying causes, and the impact to Instapaper & similar Open Web products.
 
+<!--more-->
+
 ### 1. Shift to Subscription Models
 Over the past decade, the media industry has heavily shifted the way they monetize content from ad-supported models toward subscriptions. The NYTimes paved the way here with their leaky paywall, which introduced some friction to customers, but largely left the content available and accessible on the open web.
 
