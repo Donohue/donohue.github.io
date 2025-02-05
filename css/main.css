@@ -440,14 +440,18 @@ a.block:hover {
 	line-height: 1.4;
 }
 
-#mce-EMAIL {
+.text_input, #mce-EMAIL {
 	width: 430px;
 	font-size: 16px;
     border-radius: 4px;
-    border: 1px solid transparent;
+    border: 1px solid #aaaaaa;
     padding: 12px 8px;
     margin: 0;
     color: #000;
+}
+
+#mce-EMAIL {
+    border: 1px solid transparent;
 }
 
 #mce-EMAIL:focus {
@@ -456,7 +460,7 @@ a.block:hover {
     color: #000;
 }
 
-#mc-embedded-subscribe {
+.submit_button, #mc-embedded-subscribe {
 	float: right;
 	display: inline-block;
 	height: 45px;
@@ -470,7 +474,7 @@ a.block:hover {
 	background-color: white;
 	
     cursor: pointer;
-    border: 0;
+    border: 1px solid #007bf4;
     border-radius: 4px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -489,7 +493,11 @@ a.block:hover {
     text-align: center;
 }
 
-#mc-embedded-subscribe:hover {
+#mc-embedded-subscribe {
+    border: 0;
+}
+
+.submit_button:hover, #mc-embedded-subscribe:hover {
     color: white;
 	background-color: #0074bf;
 }
@@ -520,6 +528,31 @@ a.block:hover {
 
 .bigfoot-footnote__button__circle circle {
     fill: var(--footnote-circle);
+}
+
+.image_classifier_demo_image {
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+    width: 200px;
+    height: 200px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#image_classifier_label {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.image_classifier_confidence {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 
