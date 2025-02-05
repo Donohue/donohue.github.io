@@ -7,7 +7,9 @@ excerpt_separator: <!--more-->
 
 One of my goals this year is to teach myself Machine Learning.
 
-I had the opportunity to work with a lot of ML engineers at Pinterest and DoorDash. Other than helping to define the problem, providing the inputs, and fetching the outputs, the whole process of building, training, and deploying models has been a black box to me.
+I had the opportunity to work with a lot of ML engineers at Pinterest and DoorDash. Other than helping to define the problem, providing the inputs, and fetching the outputs, the whole process of building, training, and deploying models has been a black box to me...
+
+<!--more-->
 
 It feels like it's only going to become more important to understand how to build and deploy ML models over time.
 
