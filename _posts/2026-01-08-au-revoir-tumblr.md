@@ -5,7 +5,7 @@ date: "2026-01-08"
 excerpt_separator: <!--more-->
 ---
 
-After 18 years, the [Instapaper blog](https://blog.instapaper.com) is moving off of [Tumblr](https://instapaper.tumblr.com) in favor of Jekyll on GitHub Pages.
+After 18 years, the [Instapaper blog](https://blog.instapaper.com) is moving off of Tumblr in favor of Jekyll on GitHub Pages.
 
 For several years now I've been really embarrassed about the state of Instapaper's blog. It's been simultaneously the lowest quality part of of our web presence, and also the place where we made our most important announcements. I had dreaded the idea of spending a lot of time migrating and modernizing it.
 
