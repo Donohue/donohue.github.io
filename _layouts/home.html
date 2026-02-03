@@ -3,32 +3,18 @@ layout: default
 ---
 
 <div class="home">
-  {{ content }}
-
   {%- if site.posts.size > 0 -%}
-    <div class="post-list">
+    <ul class="post-list">
       {%- for post in site.posts -%}
-      <div class="post">
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
+      <li class="post-list-item">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
         {{ post.excerpt }}
-        <div class="fin">
-            &#9670;
-        </div>
-      </div>
+      </li>
       {%- endfor -%}
-    </div>
+    </ul>
   {%- endif -%}
-
- 	<div class="footer">
-        <a href="/">Home</a> &middot;
-        <a href="/about">About</a> &middot;
-        <a href="/contact">Contact</a>
-    </div>
-
 </div>
