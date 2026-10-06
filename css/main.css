@@ -4,6 +4,7 @@
 */
 
 :root {
+    --sans-font: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
     --code-background-color: rgba(0, 0, 0, 0.05);
     --code-text-color: #b0521c;
     --image-opacity: 1;
@@ -187,15 +188,6 @@
     src: url(https://bthdonohue.s3.amazonaws.com/fonts/tiempos/TiemposTextWeb-Regular.woff) format('woff');
 }
 
-@font-face {
-    font-family: 'National';
-    font-weight: lighter;
-    font-style: normal;
-
-    src: url(https://bthdonohue.s3.amazonaws.com/fonts/national/NationalWeb-Light.eot) format('embedded-opentype');
-    src: url(https://bthdonohue.s3.amazonaws.com/fonts/national/NationalWeb-Light.woff) format('woff');
-}
-
 body {
     margin: 0;
     font-family: 'TiemposText', 'Georgia', serif;
@@ -242,7 +234,7 @@ body {
 }
 
 .site-nav a, .site-nav a:visited {
-    font-family: 'National', 'HelveticaNeue', 'Helvetica', sans-serif;
+    font-family: var(--sans-font);
     font-size: 15px;
     letter-spacing: 0.3px;
     color: var(--muted-color);
@@ -413,7 +405,7 @@ blockquote {
 }
 
 .section-heading {
-    font-family: 'National', 'HelveticaNeue', 'Helvetica', sans-serif;
+    font-family: var(--sans-font);
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 1px;
@@ -431,7 +423,7 @@ blockquote {
 .writing-list li {
     margin: 0;
     padding: 12px 0;
-    font-family: 'National', 'HelveticaNeue', 'Helvetica', sans-serif;
+    font-family: var(--sans-font);
 }
 
 .writing-list .post-meta {
@@ -539,11 +531,11 @@ li {
 }
 
 .post-header .post-meta {
-    font-family: 'National', 'HelveticaNeue', 'Helvetica', sans-serif;
+    font-family: var(--sans-font);
 }
 
 .post-header .post-title {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-family: var(--sans-font);
 }
 
 .block {
@@ -656,7 +648,7 @@ a.block:hover {
     user-select: none;
     
     -webkit-font-smoothing: antialiased;
-	font-family: 'National', 'HelveticaNeue', 'Helvetica', sans-serif;
+	font-family: var(--sans-font);
     font-size: 15px;
     min-width: 120px;
     text-align: center;
