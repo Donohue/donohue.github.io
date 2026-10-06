@@ -517,13 +517,6 @@ thead tr, tr:nth-child(even) {
     background-color: var(--surface-color);
 }
 
-.fin {
-    color: var(--rule-color);
-    font-size: 30px;
-    width:90%;
-    text-align: center;
-}
-
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -682,12 +675,6 @@ a.block:hover {
 	clear: both;
 }
 
-.post-bottom {
-    font-size: 40px;
-    color: var(--rule-color);
-    text-align: center;
-    margin-bottom: 40px;
-}
 
 
 .bigfoot-footnote {
