@@ -3,32 +3,27 @@ layout: default
 ---
 
 <div class="home">
-  {{ content }}
+  <div class="intro">
+    {{ content }}
+  </div>
+
+  <h2 class="section-heading">Contact</h2>
+  <ul class="writing-list">
+    <li><a href="https://x.com/bthdonohue">Twitter / X</a></li>
+    <li><a href="https://www.linkedin.com/in/bthdonohue/">LinkedIn</a></li>
+    <li><a href="https://github.com/Donohue">GitHub</a></li>
+  </ul>
 
   {%- if site.posts.size > 0 -%}
-    <div class="post-list">
+    <h2 class="section-heading">Writing</h2>
+    <ul class="writing-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in site.posts -%}
-      <div class="post">
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {{ post.excerpt }}
-        <div class="fin">
-            &#9670;
-        </div>
-      </div>
+      </li>
       {%- endfor -%}
-    </div>
+    </ul>
   {%- endif -%}
-
- 	<div class="footer">
-        <a href="/">Home</a> &middot;
-        <a href="/about">About</a> &middot;
-        <a href="/contact">Contact</a>
-    </div>
-
 </div>
