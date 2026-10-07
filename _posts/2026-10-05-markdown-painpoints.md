@@ -3,6 +3,9 @@ layout: post
 title:  "Markdown Pain Points"
 date:   "2026-10-05"
 ---
+
+**Edit:** The same day I published this post [Google Docs launched Markdown support](https://x.com/chanduthota/status/2107195115441946850).
+
 For the past few years, I've been writing exclusively in markdown across a few different use cases:
 
 - Personal Blog [^1]
