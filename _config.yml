@@ -48,4 +48,4 @@ defaults:
 #   - vendor/ruby/
 
 # Page background palette: paper, sepia, fog, blush, sage (see css/main.css)
-background: paper
+background: fog
